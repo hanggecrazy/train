@@ -35,8 +35,6 @@ def get_content(url):
     return resp.read()
 
 if __name__ == '__main__':
-
-
     try:
         train_date = sys.argv[1]
         from_station = get_station_list()[sys.argv[2]]
